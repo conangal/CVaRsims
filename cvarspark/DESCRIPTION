@@ -1,0 +1,14 @@
+Package: cvarspark
+Type: Package
+Title: CVaR with sparklyr or standalone
+Version: 0.2.0
+Authors@R: person("Conan", "Gallagher", email = "ctgallagher@dundee.ac.uk", role = c("aut", "cre"))
+Maintainer: The package maintainer <ctgallagher@dundee.ac.uk>
+Description: Calculate Credit Value-at-Risk (CVaR) with standalone machine or sparklyr running on a cluster. Can take a user defined portfolio or functions can randomly generate a typical portfolio. Function can also generate homogeneous mortgage or revolving loan portfolios for benchmarking vs. Basel II capital levels.
+License: Open-source
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+NeedsCompilation: no
+Packaged: 2017-12-21 19:41:21 UTC; conan
+Author: Conan Gallagher [aut, cre]
